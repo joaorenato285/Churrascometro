@@ -8,6 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
+        <link rel="icon" href="Assets/carne-removebg-preview.png" type="image/png">
     <title>Churrascômetro</title>
 
 </head>
@@ -22,19 +23,16 @@
         <input id="adultos" type="number" placeholder="Nº de Adultos">
         <input id="criancas" type="number" placeholder="Nº de Crianças">
         <input id="horas" type="number" placeholder="Duração em horas">
-        <input onclick="calcular()" class="botao " value="Calcular" type="submit">
-        <div class="itens">
-            <img width="70px" src="Assets/carne-removebg-preview.png">
-            <img width="40px" src="Assets/cerveja.png">
-            <img width="40px" src="Assets/bebida-removebg-preview.png">
-        </div>
+        <button class="botao" onclick="calcular()">Calcular</button>
+       
+     
 
         <div id="resultado"></div>
     </div>
     <footer>
         Desenvolvido por João Renato 26/09/2021
     </footer>
-    <script src="script.js"> </script>
+    <script src="./script.js"> </script>
 </body>
 
 </html>
