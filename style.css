@@ -95,7 +95,11 @@ footer{width: 100%;
         font-size: .5rem;        
         height: 1rem;
         color: white;  
-        font-family: Poppins;     
-       
-        padding:; 
+        font-family: Poppins;         
+        
     }   
+    h2{
+        font-size: 1.7rem;
+    }
+    p{font-size:1.2rem}
+}

@@ -24,7 +24,7 @@ function calcular(){
     if(horas>=6){ bebidas = criancas * 1500;
     }
     container.style.height = "40rem";
-    resultado.innerHTML += `<h2>Você vai precisar de:</h2>`;
+    resultado.innerHTML += `<h2 class="h2">Você vai precisar de:</h2>`;
     resultado.innerHTML += `<p>${carne/1000} Kg de <u>Carne</u></p>`;
     resultado.innerHTML +=`<p>${Math.ceil (cerveja/350)} Latinhas de <u>Cerveja</u></p>`;
     resultado.innerHTML += `<p>${Math.ceil (bebidas/2000)} Garrafas de <u>Refrigerante</u></p>`;
