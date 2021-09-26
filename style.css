@@ -17,7 +17,8 @@ body{
     
 }
 
-.container{
+.container{flex-direction: column;
+       align-items: center;
     margin: auto;
     padding-top: 1rem;
     border-radius: .3rem;
@@ -29,9 +30,14 @@ body{
     
 
 }
-.logo{width: 20rem;
+.logo{;
+    margin-left:-10%;
+    position: relative;
+    width: 15rem;
 display: flex;
 margin: auto;
+text-align: center;
+
 
 }
 input{display: flex;
@@ -92,8 +98,9 @@ footer{width: 100%;
     } 
     .logo{
         margin: auto;
-        padding: 0;
-        display: block;
+        
+        
+       
     }
     footer{width: 100%;
         position: fixed;
@@ -107,4 +114,21 @@ footer{width: 100%;
         font-size: 1.7rem;
     }
     p{font-size:1.2rem}
+}
+.botao{
+    background-color: #DC3B4F;
+    color: white;
+    border-style: none;
+    border-radius: 10px 0 10px 0;
+    align-items: center;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    margin-top:10px;
+    font-weight: bold;
+    font-family: poppins;
+    
+    
 }
